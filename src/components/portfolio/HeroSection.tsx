@@ -41,7 +41,7 @@ const HeroSection = () => {
             <span className="text-gradient">Payal Patel</span>
             <br />
             <span className="text-3xl md:text-5xl text-muted-foreground">
-              Full Stack Developer
+              IT Consultant
             </span>
           </h1>
           
@@ -71,7 +71,7 @@ const HeroSection = () => {
           
           <div className="flex items-center justify-center space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/PayalPatel8"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gradient-card border border-border hover:shadow-glow transition-smooth group"
@@ -79,7 +79,7 @@ const HeroSection = () => {
               <Github className="h-6 w-6 group-hover:scale-110 transition-bounce" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/payal-patel0812/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gradient-card border border-border hover:shadow-glow transition-smooth group"
@@ -87,7 +87,7 @@ const HeroSection = () => {
               <Linkedin className="h-6 w-6 group-hover:scale-110 transition-bounce" />
             </a>
             <a
-              href="mailto:alex@example.com"
+              href="mailto:payalhpatel0812@gmail.com"
               className="p-3 rounded-full bg-gradient-card border border-border hover:shadow-glow transition-smooth group"
             >
               <Mail className="h-6 w-6 group-hover:scale-110 transition-bounce" />
