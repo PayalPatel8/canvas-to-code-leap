@@ -38,7 +38,7 @@ const HeroSection = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             I'm{" "}
-            <span className="text-gradient">Alex Chen</span>
+            <span className="text-gradient">Payal Patel</span>
             <br />
             <span className="text-3xl md:text-5xl text-muted-foreground">
               Full Stack Developer
