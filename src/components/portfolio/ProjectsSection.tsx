@@ -6,39 +6,42 @@ import { Badge } from "@/components/ui/badge";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform built with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      title: "Headless E-Commerce",
+      description: "A full-featured headless e-commerce built with Magento2, Next.js, and GraphQL integration. Totally implimented core magento2 features.",
+      technologies: ["Magento2", "Next.js", "GraphQL", "Tailwind CSS"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com",
+      live: "https://nextkart.vercel.app/",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
+      title: "Freeway FWT E-Commerce",
+      description: ": Freeway is a crypto currency website. Using Buy, Sell and Swap functionality on Product Page for the FWT coins and other currency like Bitcoin Solana, BNB etc. Use MetaMask wallet extension for interact with Ethereum wallet.",
+      technologies: ["Magento2", "jQuery", "MySQL", " Meta Mask extension"],
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com",
       featured: false
     },
     {
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.",
-      technologies: ["React", "TypeScript", "Chart.js", "Weather API"],
+      title: "Fixa Bildelar, Drivknutense",
+      description: "Fixa Bildelar and Drivknutense both are ecommerce similar website for selling parts of cars for basically Sweden and Norway by searching chassis number of car.",
+      technologies: ["Magento 2", "CSS", "jQuery", "REST API"],
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com",
+      live: "https://www.fixabildelar.se/",
       featured: false
     },
     {
-      title: "Social Media Dashboard",
-      description: "A comprehensive social media management dashboard with analytics, post scheduling, and multi-platform integration.",
-      technologies: ["Next.js", "Prisma", "MySQL", "Tailwind CSS"],
+      title: "Dolphin Web Shop",
+      description: "This project is selling Magento 2 modules which develop by company’s developer.",
+      technologies: ["Magento 2", "Git", "Bitbucket", "GraphQL"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com",
+      live: "https://dolphinwebsolution.com/shop/",
+      featured: true
+    },
+    {
+      title: "Dolphin Web Shop",
+      description: "This project is selling Magento 2 modules which develop by company’s developer.",
+      technologies: ["Magento 2", "Git", "Bitbucket", "GraphQL"],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      live: "https://dolphinwebsolution.com/shop/",
       featured: true
     }
   ];
@@ -51,10 +54,10 @@ const ProjectsSection = () => {
             My Work
           </span>
           <h2 className="text-4xl font-bold mt-2 mb-6">
-            Featured <span className="text-gradient">Projects</span>
+            Featured <span className="text-gradient">Projects & Activities</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and passion for development.
+            Here are some of my recent projects and activities that showcase my skills and passion for research and development.
           </p>
         </div>
 
@@ -102,17 +105,6 @@ const ProjectsSection = () => {
                     
                     <div className="flex gap-3 pt-2">
                       <Button
-                        variant="outline"
-                        size="sm"
-                        className="group/btn hover:shadow-glow transition-smooth"
-                        asChild
-                      >
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">
-                          <Github className="h-4 w-4 mr-2 group-hover/btn:scale-110 transition-bounce" />
-                          Code
-                        </a>
-                      </Button>
-                      <Button
                         size="sm"
                         className="bg-gradient-primary group/btn hover:shadow-glow transition-smooth"
                         asChild
@@ -130,16 +122,15 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button 
-            variant="outline" 
-            className="shadow-card hover:shadow-glow transition-smooth"
-            asChild
-          >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              View All Projects on GitHub
-            </a>
-          </Button>
+        <div className="mt-20">
+        	<h3 className="text-2xl font-bold text-center mb-12"></h3>
+        	<div className="max-w-4xl mx-auto">
+        		<div className="bg-gradient-card border border-border rounded-lg p-6 hover:shadow-glow transition-smooth">
+        			<p className="text-muted-foreground text-lg leading-relaxed">
+        				I was research and analys for shopify app and testing all app which developed by CynoInfotech Devs, also all documents created by me and totally concept made by me for all banners and icons. After publish shopify app, create post related to app with video, images or content using figma or canva design. 
+        			</p>
+        		</div>
+        	</div>
         </div>
       </div>
     </section>
