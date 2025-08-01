@@ -47,9 +47,8 @@ const HeroSection = () => {
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Creative and technically proficient web developer with 9+ years of experience, including 1.3 years in digital content, social media visuals, project consulting, and AI-assisted development.
-            Strong hands-on expertise in Magento 2, Shopify, React.js/Next.js, Laravel, and WordPress. Delivered numerous full-scale eCommerce solutions with a blend of design aesthetics and backend performance.
-            Skilled in creating custom modules, performance optimization, and research-driven improvements using tools like GitHub Copilot and Lovable AI.
-            Adept at team collaboration, graphic design, client communication, and scalable architecture design.
+            Delivered numerous full-scale eCommerce solutions with a blend of design aesthetics and backend performance.
+            Research-driven improvements using tools like GitHub Copilot and Lovable AI.
             Passionate about turning ideas into powerful, user-friendly web solutions across international markets.
           </p>
           
