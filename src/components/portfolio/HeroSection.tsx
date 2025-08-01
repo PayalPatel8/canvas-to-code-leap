@@ -46,7 +46,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Creative and technically proficient web developer with 9+ years of experience, including 1.3 years in digital content, social media visuals, project consulting, and AI-assisted development.
+            Creative and technically proficient web developer with 8+ years of experience, including 1.3 years in digital content, social media visuals, project consulting, and AI-assisted development.
             Delivered numerous full-scale eCommerce solutions with a blend of design aesthetics and backend performance.
             Research-driven improvements using tools like GitHub Copilot and Lovable AI.
             Passionate about turning ideas into powerful, user-friendly web solutions across international markets.
