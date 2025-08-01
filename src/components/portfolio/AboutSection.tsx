@@ -6,7 +6,7 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: <Code className="h-8 w-8" />,
-      title: "5+ Years Experience",
+      title: "8+ Years Experience",
       description: "Building scalable web applications"
     },
     {
@@ -22,7 +22,7 @@ const AboutSection = () => {
     {
       icon: <Coffee className="h-8 w-8" />,
       title: "Always Learning",
-      description: "Staying current with latest technologies"
+      description: "Staying current with latest technologies like as AI"
     }
   ];
 
