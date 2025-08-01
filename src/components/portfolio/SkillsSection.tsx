@@ -79,17 +79,6 @@ const SkillsSection = () => {
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             I explored Shopify App Research and Marketing, NextKart Marketing, Digital Content, Social Media Visuals, Project Consulting, graphic design, and create my portfolio website using the Loveable AI tool.
           </p>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-                <div className="flex gap-6 group">
-                  <div className="flex-1 pb-8">
-                    <div className="bg-gradient-card border border-border rounded-lg p-6 hover:shadow-glow transition-smooth">
-                      <p className="text-muted-foreground">Payal Test 123</p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
