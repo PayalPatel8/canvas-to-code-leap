@@ -84,7 +84,7 @@ const SkillsSection = () => {
                 <div className="flex gap-6 group">
                   <div className="flex-1 pb-8">
                     <div className="bg-gradient-card border border-border rounded-lg p-6 hover:shadow-glow transition-smooth">
-                      <p className="text-muted-foreground">Payal Test</p>
+                      <p className="text-muted-foreground">Payal Test 123</p>
                     </div>
                   </div>
                 </div>
