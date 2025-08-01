@@ -41,13 +41,15 @@ const HeroSection = () => {
             <span className="text-gradient">Payal Patel</span>
             <br />
             <span className="text-3xl md:text-5xl text-muted-foreground">
-              IT Consultant
+              Creative Tech Specialist
             </span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Crafting beautiful, functional web applications with modern technologies. 
-            Passionate about creating exceptional user experiences and clean, efficient code.
+            Creative and technically proficient web developer with 8+ years of experience, including 1.3 years in digital content, social media visuals, project consulting, and AI-assisted development.
+            Delivered numerous full-scale eCommerce solutions with a blend of design aesthetics and backend performance.
+            Research-driven improvements using tools like GitHub Copilot and Lovable AI.
+            Passionate about turning ideas into powerful, user-friendly web solutions across international markets.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">

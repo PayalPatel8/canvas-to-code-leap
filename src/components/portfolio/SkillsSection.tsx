@@ -4,26 +4,26 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
-      skills: [
-        "React", "TypeScript", "Next.js", "Vue.js", "HTML5", "CSS3", 
-        "Tailwind CSS", "Sass", "JavaScript", "Responsive Design"
-      ],
-      color: "bg-primary"
-    },
-    {
       title: "Backend Development", 
       skills: [
-        "Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB",
-        "Redis", "GraphQL", "REST APIs", "Microservices"
+        "Magento2", "PHP", "WordPress", "PostgreSQL", "MongoDB",
+        "MySQL", "GraphQL", "REST APIs"
       ],
       color: "bg-accent"
     },
     {
+      title: "Frontend Development",
+      skills: [
+        "Shopify", "React.js", "Next.js", "TypeScript", "HTML", "CSS", 
+        "Tailwind CSS", "Less", "JavaScript", "Responsive Design"
+      ],
+      color: "bg-primary"
+    },
+    {
       title: "Tools & Technologies",
       skills: [
-        "Git", "Docker", "AWS", "Vercel", "Webpack", "Vite",
-        "Jest", "Cypress", "Figma", "Linux"
+        "Git", "Bitbucket", "Vercel", "VsCode", "Notepad++", "Sublime",
+        "Figma", "Canva", "Linux", "Windows 11 or older"
       ],
       color: "bg-secondary"
     }
@@ -40,8 +40,7 @@ const SkillsSection = () => {
             Technologies I work with
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            I'm passionate about learning new technologies and staying up-to-date 
-            with the latest trends in web development.
+            I’m driven by a passion for exploring new technologies and staying current with the latest trends in web development.
           </p>
         </div>
 
@@ -76,46 +75,19 @@ const SkillsSection = () => {
 
         {/* Experience Timeline */}
         <div className="mt-20">
-          <h3 className="text-2xl font-bold text-center mb-12">Professional Journey</h3>
+          <h3 className="text-2xl font-bold text-center mb-12">Speciality of last 1+ years</h3>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            I explored Shopify App Research and Marketing, NextKart Marketing, Digital Content, Social Media Visuals, Project Consulting, graphic design, and create my portfolio website using the Loveable AI tool.
+          </p>
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8">
-              {[
-                {
-                  year: "2023 - Present",
-                  role: "Senior Full Stack Developer",
-                  company: "TechCorp Inc.",
-                  description: "Leading development of scalable web applications using React and Node.js"
-                },
-                {
-                  year: "2021 - 2023", 
-                  role: "Frontend Developer",
-                  company: "StartupXYZ",
-                  description: "Built responsive user interfaces and improved application performance by 40%"
-                },
-                {
-                  year: "2019 - 2021",
-                  role: "Junior Developer",
-                  company: "Web Solutions Ltd.",
-                  description: "Developed and maintained client websites using modern web technologies"
-                }
-              ].map((experience, index) => (
-                <div key={index} className="flex gap-6 group">
-                  <div className="flex flex-col items-center">
-                    <div className="w-4 h-4 bg-primary rounded-full border-4 border-background shadow-glow" />
-                    {index < 2 && <div className="w-0.5 h-16 bg-border mt-2" />}
-                  </div>
+                <div className="flex gap-6 group">
                   <div className="flex-1 pb-8">
                     <div className="bg-gradient-card border border-border rounded-lg p-6 hover:shadow-glow transition-smooth">
-                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                        <h4 className="font-semibold text-lg">{experience.role}</h4>
-                        <span className="text-primary text-sm font-medium">{experience.year}</span>
-                      </div>
-                      <div className="text-accent font-medium mb-3">{experience.company}</div>
                       <p className="text-muted-foreground">{experience.description}</p>
                     </div>
                   </div>
                 </div>
-              ))}
             </div>
           </div>
         </div>
