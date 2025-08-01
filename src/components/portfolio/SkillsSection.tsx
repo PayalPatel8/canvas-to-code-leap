@@ -75,7 +75,7 @@ const SkillsSection = () => {
 
         {/* Experience Timeline */}
         <div className="mt-20">
-          <h3 className="text-2xl font-bold text-center mb-12">Specialty of last 1+ years</h3>
+          <h3 className="text-2xl font-bold text-center mb-12">Speciality of last 1+ years</h3>
           <div className="max-w-4xl mx-auto">
             <div className="bg-gradient-card border border-border rounded-lg p-6 hover:shadow-glow transition-smooth">
               <p className="text-muted-foreground text-lg leading-relaxed">
