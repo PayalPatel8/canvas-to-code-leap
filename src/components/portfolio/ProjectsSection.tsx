@@ -37,7 +37,7 @@ const ProjectsSection = () => {
       featured: true
     },
     {
-      title: "Dolphin Web Shop",
+      title: "Dolphin Web Shop 1",
       description: "This project is selling Magento 2 modules which develop by company’s developer.",
       technologies: ["Magento 2", "Git", "Bitbucket", "GraphQL"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
