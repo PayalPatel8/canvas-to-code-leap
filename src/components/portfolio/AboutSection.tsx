@@ -41,14 +41,17 @@ const AboutSection = () => {
                 <span className="text-gradient">digital experiences</span>
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                I'm a full-stack developer with a passion for creating beautiful, 
-                functional web applications. With over 5 years of experience in the industry, 
-                I specialize in React, Node.js, and modern web technologies.
+                I'm a creative and technically proficient web developer with 8+ years of experience, including 1.3 years in digital content, social media visuals, project consulting, and AI-assisted development.
+                Strong hands-on expertise in Magento 2, Shopify, React.js/Next.js, Laravel, and WordPress.
+                Delivered numerous full-scale eCommerce solutions with a blend of design aesthetics and backend performance.
+                Skilled in creating custom modules, performance optimization, and research-driven improvements using tools like GitHub Copilot and Lovable AI.
+                Adept at team collaboration, graphic design, client communication, and scalable architecture design.
+                Passionate about turning ideas into powerful, user-friendly web solutions across international markets.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 When I'm not coding, you can find me exploring new technologies, 
-                contributing to open source projects, or enjoying a good cup of coffee 
-                while planning my next creative project.
+                contributing to open source projects or searching somthing new with latest trend on tech,
+                also enjoying a good cup of tea while planning my next creative project.
               </p>
             </div>
 
@@ -77,14 +80,6 @@ const AboutSection = () => {
                 className="w-full h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-            </div>
-            
-            {/* Floating stats */}
-            <div className="absolute -top-6 -right-6 bg-gradient-card border border-border rounded-2xl p-6 shadow-glow">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gradient">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
-              </div>
             </div>
             
             <div className="absolute -bottom-6 -left-6 bg-gradient-card border border-border rounded-2xl p-6 shadow-glow">
