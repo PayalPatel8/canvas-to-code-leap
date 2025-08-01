@@ -43,7 +43,7 @@ const AboutSection = () => {
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 I'm a creative tech specialist including in digital content, social media visuals, project consulting, and AI-assisted development.
                 Strong hands-on expertise in Magento 2, Shopify, React.js/Next.js, and WordPress. Skilled in creating custom modules, performance optimization, and research-driven improvements using tools like GitHub Copilot and Lovable AI.
-                Adept at team collaboration, graphic design, and scalable architecture design. Passionate about turning ideas into powerful, user-friendly web solutions across international markets.
+                Adept at team collaboration, graphic design, and user-friendly web solutions.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 When I'm not coding, you can find me exploring new technologies, 
